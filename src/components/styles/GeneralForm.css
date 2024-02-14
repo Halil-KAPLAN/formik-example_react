@@ -1,0 +1,79 @@
+form {
+  width: 500px;
+}
+form input,
+form select {
+  width: 100%;
+  padding: 8px 7px;
+  font-size: 1rem;
+  border: 2px solid #4a5568;
+  background-color: #2d3748;
+  color: white;
+  margin: 5px 0;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+}
+.checkbox input {
+  width: auto;
+}
+.checkbox span {
+  margin-left: 10px;
+}
+
+form input::placeholder,
+form select::placeholder {
+  color: lightgray;
+}
+
+form input:focus {
+  border-color: lightblue;
+}
+
+.formLink {
+  color: white;
+}
+
+.inputError {
+  border-color: #fc8181;
+}
+.inputErrorMsg {
+  color: #fc8181;
+  font-size: 12px;
+}
+
+form button {
+  width: 100%;
+  padding: 8px;
+  margin: 16px 0;
+  background-color: rgb(13, 94, 13);
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  font-family: inherit;
+  color: #f3f3f3;
+  transition: border-color 0.25s;
+}
+form button:hover {
+  border-color: greenyellow;
+}
+form button:focus,
+form button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.inputDiv {
+  margin-bottom: 10px;
+}
+
+form label {
+  font-size: 1em;
+  font-weight: 500;
+}
